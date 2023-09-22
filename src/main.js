@@ -1,4 +1,7 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import VueReact from 'vue-react';
+import App from './App.vue';
 
-createApp(App).mount('#app')
+Vue.use(VueReact);
+
+createApp(App).mount('#app');
